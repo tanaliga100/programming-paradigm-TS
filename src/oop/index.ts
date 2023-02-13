@@ -51,3 +51,31 @@
 // }
 
 // new UserInputForm();
+
+class Validator {}
+class User {}
+class UserInputForm {}
+
+class Invoice {
+  client: string;
+  details: string;
+  amount: number;
+  constructor(c: string, d: string, a: number) {
+    this.client = c;
+    this.details = d;
+    this.amount = a;
+  }
+  format() {
+    console.log(`${this.client} owes $${this.amount} for ${this.details}`);
+  }
+}
+const f = new Invoice("lara", "owes", 31232);
+const g = new Invoice("dan", "borrowed", 123.99);
+const h = new Invoice("kimmy", "steals a bag worth", 123.99);
+
+const invoices: Invoice[] = [];
+invoices.push(f);
+invoices.push(g);
+invoices.push(h);
+
+console.log(invoices);
