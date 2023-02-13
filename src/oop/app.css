@@ -46,8 +46,8 @@ input:focus {
 button {
   font: inherit;
   cursor: pointer;
-  background: #000057;
+  background: green;
   color: white;
-  border: 1px solid #000057;
+  border: 1px solid green;
   padding: 1rem 2rem;
 }
