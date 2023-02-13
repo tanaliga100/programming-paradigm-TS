@@ -2,7 +2,7 @@ Three ways on making a web applications
 
 # Procedural Approach
 
-=> Top to Bottom || an easy was and very straight forward approach
+=> Top to Bottom || an easy way and very straight forward approach
 
 # Object Oriented Approach
 
