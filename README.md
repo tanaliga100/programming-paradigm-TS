@@ -6,8 +6,8 @@ Three ways on making a web applications
 
 # Object Oriented Approach
 
-=> Methods and Properties are all in one class || easy to maintain and has a SOC principles
+=> Methods and Properties are all in one class || easy to maintain and has a SOC principles || Reusable
 
 # Functional Approach
 
-=> Pure functions || everything are all encapsulated in functions
+=> Pure functions || everything are all encapsulated in functions || Reusable
